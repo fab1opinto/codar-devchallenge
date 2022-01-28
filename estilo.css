@@ -139,10 +139,12 @@ ul li{
 
 #circulo{
     border-radius:50%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-color: red;
-    position: left;
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
 
 footer {
@@ -159,4 +161,23 @@ footer {
     font-weight: bold;
     margin-top: 40px;
     margin-left: 20px;
+}
+
+#Txt {
+    width: 350px;
+    margin-left: 120px;
+    margin-top: -60px;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+#Txtum {
+    font-size: 20px;
+    margin-left: -130px;
+}
+
+#Txtdois {
+    font-weight: bold;
+    margin-left: -125px;
+    margin-top: -5px;
 }
