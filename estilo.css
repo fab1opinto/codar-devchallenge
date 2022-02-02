@@ -6,6 +6,49 @@
     font-size: 42px;
     font-style: italic;
     font-weight: bold;
+    line-height: 80px;
+}
+
+label.logo {
+    color: #D6000D;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    color: black;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-size: 25px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+#buttonnav {
+    background-color: #D6000D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
 }
 
 .Ponto {
@@ -17,7 +60,8 @@
     margin-right: 20px;
     margin-top: -40px;
     font-size: 15px;
-    letter-spacing: 3px;
+    align-content: space-between;
+    margin: 0 50px;
 }
 
 #buttonNav {
@@ -29,7 +73,6 @@
     height: 40px;
     text-align: center;
     border: none;
-    margin-top: -55px;
 }
 
 .imgUm {
@@ -74,14 +117,14 @@
     margin-top: 120px;
 }
 
-ul li{
+/*ul li{
     background-image: url('assets/ok-24.ico');
     background-repeat: no-repeat;
     list-style-type: none;  
     padding-left: 50px;
     padding-bottom: 10px;
     
-}
+} */
 
 #ladoDireitodois{
     margin-top: 100px;
@@ -164,7 +207,7 @@ footer {
 }
 
 #Txt {
-    width: 350px;
+    width: 300px;
     margin-left: 120px;
     margin-top: -60px;
     text-align: justify;
@@ -180,4 +223,45 @@ footer {
     font-weight: bold;
     margin-left: -125px;
     margin-top: -5px;
+}
+
+#Txtright {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: -175px;
+}
+
+#Idrodape {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+ row {
+     text-align: center;
+ }
+
+#Idpara {
+    font-size: 15px;
+}
+
+i  {
+    color: red;
+}
+
+#Icones {
+    justify-content: space-between;
+}
+
+ 
+
+
+
+#p {
+    background-image: url('assets/ok-24.ico');
+    background-repeat: no-repeat;
+    list-style-type: none;  
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
 }

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 
 <head>
@@ -10,17 +11,30 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <!--CSS-->
     <link rel="stylesheet" href="estilo.css">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/8e60cd9016.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-<div id="Codar">Codar<span class="Ponto">.</span></div>
+    <nav>
+        <label class="logo">Codar.</label>
+        <ul>
+            <li>Início</li>
+            <li>Serviços</li>
+            <li>Contato</li>
+            <li><button id="buttonnav">Login</button></li>
+        </ul>
+    </nav>
+
+
+    <div id="Codar">Codar<span class="Ponto">.</span></div>
 
     <div class="Alinhamento">
         Início
         Serviços
         Contato
-        <button id="buttonNav">Login</button>
+    <button id="buttonNav">Login</button>
     </div>
 
     <div class="row">
@@ -29,12 +43,12 @@
 
             <div id="ladoEsquerdodois">
                 <ul>
-                    <li>Domínio personalizado</li>
-                    <li>Hospedagem</li>
-                    <li>Site responsivo</li>
-                    <li>Redes sociais</li>
-                    <li>Chat online</li>
-                    <li>Blog integrado</li>
+                    <p id="p">Domínio personalizado</p>
+                    <p id="p">Hospedagem</p>
+                    <p id="p">Site responsivo</p>
+                    <p id="p">Redes sociais</p>
+                    <p id="p">Chat online</p>
+                    <p id="p">Blog integrado</p>
                 </ul>
             </div>
 
@@ -44,8 +58,6 @@
                     <button id="btnCall">Ligamos para você</button>
                 </p>
             </div>
-
-
 
             <div id="borderLeft">
                 <div id="circulo"></div>
@@ -70,7 +82,7 @@
             <div id="borderRight">
                 <div id="circulo"></div>
                 <div id="Txt">Processos bem simples e criação de um site exatamente como a minha escola queria!</div>
-                <div id="Txtum">Maria Rita</div>
+                <div id="Txtright">Maria Rita</div>
                 <div id="Txtdois">Escola Criança Feliz</div>
             </div>
         </div>
@@ -85,12 +97,24 @@
                 </div>
                 <p>criamos websites incríveis</p>
             </div>
-            <div class="col">col</div>
-            <div class="col">col</div>
-            <div class="col">col</div>
+            <div class="col" id="Idrodape">Sobre
+                <p id="Idpara">Amamos criar soluções incrivéis</p>
+            </div>
+            <div class="col" id="Idrodape">Contato
+                <p id="Idpara">123 Av. Manjar - Nárnia</p>
+                <p id="Idpara">+55 96 2321-3131</p>
+                <p id="Idpara">contato@codar.com</p>  
+            </div>
+            <div class="col" id="Idrodape">Redes Socias
+                <div class="row">
+                    <div class="col-sm-2"><i class="fab fa-facebook-square"></i></div>
+                    <div class="col-sm-2"><i class="fab fa-instagram"></i></div>
+                    <div class="col-sm-2"><i class="fab fa-twitter-square"></i></div>
+                    </div>
+                </div>
         </div>
     </footer>
-    
+
 </body>
 
 </html>
