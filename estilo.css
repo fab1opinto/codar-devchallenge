@@ -1,14 +1,4 @@
 
-
-#Codar {
-    margin-left: 50px;
-    color: #D6000D;
-    font-size: 42px;
-    font-style: italic;
-    font-weight: bold;
-    line-height: 80px;
-}
-
 label.logo {
     color: #D6000D;
     font-size: 50px;
@@ -28,7 +18,7 @@ nav ul li {
     color: black;
     display: inline-block;
     line-height: 80px;
-    margin: 0 5px;
+    margin: 0 15px;
     font-size: 25px;
 }
 
@@ -51,144 +41,8 @@ nav ul li a {
     text-align: center;
 }
 
-.Ponto {
-    color: black;
-}
 
-.Alinhamento {
-    text-align: right;
-    margin-right: 20px;
-    margin-top: -40px;
-    font-size: 15px;
-    align-content: space-between;
-    margin: 0 50px;
-}
 
-#buttonNav {
-    background-color: #D6000D;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    border: none;
-}
-
-.imgUm {
-    width: 350px;
-    height: 300px;
-}
-
-#btnOrcamento {
-    background-color: #D6000D;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    width: 350px;
-    height: 40px;
-    text-align: center;
-    border: none;
-    margin-top: 20px;
-   
-}
-
-.pUm {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: -5px;
-}
-
-.pDois {
-    font-size: 50px;
-    font-weight: bold;
-    color: #D6000D;
-}
-
-#ladoEsquerdo {
-    margin-top: 200px;
-    margin-left: 150px;
-}
-#ladoDireito {
-    margin-top: 300px;
-}
-
-#ladoEsquerdodois {
-    margin-top: 120px;
-}
-
-/*ul li{
-    background-image: url('assets/ok-24.ico');
-    background-repeat: no-repeat;
-    list-style-type: none;  
-    padding-left: 50px;
-    padding-bottom: 10px;
-    
-} */
-
-#ladoDireitodois{
-    margin-top: 100px;
-}
-
-.imgDois {
-    width: 300px;
-    height: 300px;
-}
-
-#btnCel {
-    border-radius: 15px;
-    border: none;
-    width: 180px;
-    height: 50px;
-    background-color: #D0D3D4;
-    color: white;
-    position: initial;
-}
-
-#btnCall {
-    background-color: #D6000D;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    width: 250px;
-    height: 50px;
-    text-align: center;
-    border: none;
-}
-
-#borderLeft {
-    border-radius: 10px;
-    border: none;
-    width: 500px;
-    height: 150px;
-    background-color: #D0D3D4;
-    margin-bottom: 50px;
-    font-size: 15px;
-    text-align: center;
-}
-
-#borderRight {
-    border-radius: 10px;
-    border: none;
-    width: 500px;
-    height: 150px;
-    background-color: #D0D3D4;
-    margin-top: 110px;
-    margin-left: -100px;
-    margin-bottom: 50px;
-    font-size: 15px;
-    text-align: center;
-}
-
-#circulo{
-    border-radius:50%;
-    width: 80px;
-    height: 80px;
-    background-color: red;
-    position: relative;
-    top: 20px;
-    left: 20px;
-}
 
 footer {
     width: 100%;
@@ -197,71 +51,3 @@ footer {
     color: white;
 }
 
-#coderRoda {
-    color: white;
-    font-size: 40px;
-    font-style: italic;
-    font-weight: bold;
-    margin-top: 40px;
-    margin-left: 20px;
-}
-
-#Txt {
-    width: 300px;
-    margin-left: 120px;
-    margin-top: -60px;
-    text-align: justify;
-    margin-bottom: 5px;
-}
-
-#Txtum {
-    font-size: 20px;
-    margin-left: -130px;
-}
-
-#Txtdois {
-    font-weight: bold;
-    margin-left: -125px;
-    margin-top: -5px;
-}
-
-#Txtright {
-    font-size: 20px;
-    margin-top: 25px;
-    margin-left: -175px;
-}
-
-#Idrodape {
-    margin-top: 50px;
-    margin-left: 20px;
-    font-size: 30px;
-    font-weight: bold;
-}
- row {
-     text-align: center;
- }
-
-#Idpara {
-    font-size: 15px;
-}
-
-i  {
-    color: red;
-}
-
-#Icones {
-    justify-content: space-between;
-}
-
- 
-
-
-
-#p {
-    background-image: url('assets/ok-24.ico');
-    background-repeat: no-repeat;
-    list-style-type: none;  
-    padding-left: 50px;
-    padding-bottom: 10px;
-    margin-bottom: 2px;
-}
